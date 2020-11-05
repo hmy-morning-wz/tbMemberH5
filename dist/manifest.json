@@ -1,0 +1,11 @@
+{
+  "name": "天猫入会活动",
+  "short_name": "天猫入会活动",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff",
+  "theme_color": "#673ab8",
+  "icons": [
+   ]
+}

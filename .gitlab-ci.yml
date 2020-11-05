@@ -1,0 +1,11 @@
+stages:
+  - deploy
+
+# 定义 job
+SIT operation_activity_buslove deploy:
+  stage: deploy
+  script:
+    - pwd
+    - /data/deploy/autocode/sit-oper-auto.sh tbMemberH5
+  only:
+    - stable

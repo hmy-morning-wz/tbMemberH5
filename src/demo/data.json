@@ -1,0 +1,17 @@
+{
+    "config": {
+      "bg_url": "https://img-citytsm.oss-cn-hangzhou.aliyuncs.com/image/tb/result_bg.png",
+      "coupon_name": "生活缴费红包",
+      "fail_msg1": "(同身份证账号、手机号、支付宝、设备皆视为同一账号)",
+      "fail_msg2": "如有疑问，请关注“众城通”支付宝生活号，回复“Babycare”获取客服帮助",
+      "fail_msg3": "请关注“众城通”支付宝生活号，回复“Babycare”获取客服帮助",
+      "to_use_url":null,
+      "more_url": "https://www.taobao.com",      
+      "new_coupon":{
+        "price":"10",
+        "title":"文案",
+        "url":"https://www.taobao.com",
+        "bg": "https://img-citytsm.oss-cn-hangzhou.aliyuncs.com/image/tb/rpk_bg.png"
+    }
+}
+  }

@@ -1,0 +1,303 @@
+.packet_container {
+  text-align: center;  
+  background: white;
+}
+
+.packet_container img {
+  width:10rem;
+  height: 16.08rem;
+}
+.packet_container  .money_header {
+  position: absolute;;
+  width:100%;
+  height:1.33rem;
+  font-size:1.12rem;
+  font-family:PingFangSC;
+  font-weight:600;
+  color:rgba(238,69,45,1);
+  line-height:1.33rem;
+  top: 3.46rem;
+  }
+.packet_container  .header {
+position: absolute;;
+width:100%;
+height:0.8rem;
+font-size:0.53rem;
+font-family:PingFangSC;
+font-weight:500;
+color:rgba(238,69,45,1);
+line-height:0.8rem;
+top: 3.46rem;
+color:rgba(238,45,45,1);
+
+}
+.packet_container .money_header::after{
+  content: "元";
+  font-size:0.53rem;
+font-family:PingFangSC;
+font-weight:600;
+color:rgba(238,69,45,1);
+line-height:0.93rem;
+}
+
+.packet_container .title_text {
+position: absolute;
+width:100%;
+height:0.8rem;
+font-size:0.586667rem;
+font-family:PingFangSC;
+font-weight:500;
+color:rgba(255,118,17,1);
+line-height:0.8rem;
+letter-spacing:0.026667rem;
+top: 2.45rem;
+  }
+.packet_container .text_redbag {
+position:absolute;
+width:6.32rem;
+margin-left: 1.84rem;
+height:0.64rem;
+font-size:0.42rem;
+font-family:PingFangSC-Regular;
+font-weight:400;
+color:rgba(235,46,44,1);
+line-height:0.64rem;
+letter-spacing:0.013333rem;
+top: 4.7rem;
+}
+.packet_container .text_desc {
+    position:absolute;
+    width:5.44rem;
+height:0.853333rem;
+font-size:0.32rem;
+font-family:PingFangSC-Regular;
+font-weight:400;
+color:rgba(243,89,66,1);
+line-height:0.426667rem;
+top: 5.453333rem;
+  }
+.packet_container .btn_touse{
+  position:absolute;
+height:1.28rem;
+margin-left: 4.03rem;
+top:5.4rem;
+}  
+.packet_container .btn_touse img{
+width: 1.94rem;
+height: 0.70rem;
+}
+.packet_container .btn_more {    
+    position:absolute;
+    margin-left: 2.05rem;
+    width:5.9rem;
+    height:1.74rem;
+    top:7.6rem;
+  }
+  .packet_container .btn_more .title{
+    text-align: center;
+    margin-top: 0.29rem;
+    width:100%;
+    height:0.78rem;
+    font-size:0.57rem;
+    font-family:Helvetica;
+    color:rgba(255,72,72,1);
+    line-height:0.69rem;
+    text-shadow:0px 1px 0px rgba(255,255,255,0.5), 0px 1px 2px rgba(0,0,0,0.12);
+  }
+  .btn_more .title::after{
+    content: ">";
+    text-align: center;   
+    width:0.53rem;
+    height:0.53rem;
+    font-size:0.50rem;  
+    background-color:rgba(255,72,72,1);
+    color:white;
+    border-radius:0.4rem;
+    padding-left: 0.20rem;
+    padding-right: 0.20rem;
+    padding-top: 0.01rem;
+    padding-bottom: 0.06rem;
+    margin-left: 0.25rem;
+  }
+
+
+  .packet_container .msg_box {
+    position: absolute;
+    margin-left: 1.7rem;
+    width:6.6rem;
+    height:0.8rem;
+    top: 9.4rem;
+}
+
+.msg_box .title{ 
+  font-family:PingFangSC;
+  text-align: center;   
+  width:100%;
+  height:0.69rem;
+  font-size:0.50rem; 
+  color:white;
+  font-size:0.426667rem;
+font-family:PingFangSC-Regular;
+font-weight:400;
+
+line-height:0.64rem;
+letter-spacing:0.013333rem;
+}  
+
+
+.packet_container .new_coupon_box{
+  position: absolute;
+  width:9.06rem;
+  margin-left: 0.47rem;
+  height:1.86rem;
+  top: 12.08rem;
+  display:flex;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+
+}
+.new_coupon_box .left_box{
+  position: relative;
+  width:2.3rem;
+  height:1.86rem; 
+  border-radius:0.2rem 0 0  0.2rem;
+
+}
+.new_coupon_box .right_box{
+  position: relative;
+  width:6.9rem;
+  height:1.86rem; 
+  margin-left:0rem; 
+  border-radius:0 0.2rem  0.2rem  0;
+ 
+  display:flex;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+}
+.left_box .title{ 
+font-family:PingFangSC;
+text-align: center;   
+width:100%;  
+height:1.86rem; 
+font-size:0.96rem;
+font-family:PingFangSC;
+font-weight:600;
+color:rgba(255,95,72,1);
+line-height:1.86rem;
+}  
+
+.left_box .title::after{
+  content: "元";
+  position: absolute;
+  font-size: 0.42rem;
+  font-family:PingFangSC;
+  font-weight:600;
+  color:rgba(255,95,72,1);
+  line-height:0.6rem;
+  top:50%;
+  margin-left:0.05rem;
+  -webkit-transform:translateY(-50%);
+  -moz-transform:translateY(-50%);
+  -ms-transform:translateY(-50%); 
+  transform:translateY(-50%);
+}
+.right_box .title{ 
+  font-family:PingFangSC;
+  text-align: left;   
+  width:fit-content;
+  height:0.74rem;
+  font-size:0.53rem;
+  font-family:PingFangSC;
+  font-weight:600;
+  color:rgba(255,255,255,1);
+  line-height:0.74rem;
+  margin-top: 0.50rem;
+  margin-left: 0.54rem;
+}  
+
+.right_box .qiang{ 
+  display: none;
+  position: absolute;
+  right: 0.33rem;
+  margin-top: 0.33rem;  
+  width:1.28rem;
+  height:1.28rem;
+  border-radius:50%;
+  background:linear-gradient(154deg,rgba(255,231,135,1) 0%,rgba(255,179,25,1) 100%);
+  box-shadow:0.03rem 0.03rem 0.21rem 0  rgba(191,0,0,0.5);
+  text-align: center;
+  font-size:0.74rem;
+font-family:PingFangSC;
+font-weight:600;
+color:rgba(255,48,18,1);
+line-height:1.28rem;
+}  
+
+.qiang .title{
+  text-align: center;
+  width:0.74rem;
+height:1.04rem;
+font-size:0.74rem;
+font-family:PingFangSC;
+font-weight:600;
+color:rgba(255,48,18,1);
+line-height:1.04rem;
+}
+
+
+.price {
+  font-family: AvenirBlack;
+  font-weight: 900;
+  color: #ff4242;
+  font-size: 20px;
+}
+.btn_success {
+  width: 4.48rem;
+  height: 1.173333rem;
+  background: linear-gradient(
+    107deg,
+    rgba(255, 133, 82, 1) 0%,
+    rgba(255, 61, 61, 1) 100%
+  );
+  border: none;
+  border-radius: 0.586667rem;
+  color: #fff;
+}
+.btn_focus {
+  width: 8.32rem;
+  height: 1.173333rem;
+  background: linear-gradient(
+    107deg,
+    rgba(255, 133, 82, 1) 0%,
+    rgba(255, 61, 61, 1) 100%
+  );
+  border: none;
+  border-radius: 0.586667rem;
+  color: #fff;
+}
+.btn_default {
+  width: 4.48rem;
+  height: 1.173333rem;
+  border-radius: 0.586667rem;
+  border: 2px solid rgba(255, 45, 45, 1);
+  color: #ff2d2d;
+  background: #fff;
+}
+
+.packet_footer  button {
+    margin-bottom: 0.426667rem;
+  }
+
+.tip {
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #999;
+}
+#quan {
+  margin-top: 0.266667rem;
+  height: 9.573333rem;
+  width: 8.96rem;
+}

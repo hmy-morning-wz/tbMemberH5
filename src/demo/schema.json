@@ -1,0 +1,67 @@
+{
+    "type": "object",
+    "title": "组件配置",
+    "properties": {
+      "config": {
+        "type": "object",
+        "title": "组件配置",
+        "properties": {
+          "bg_url": {
+            "type": "string",
+            "title": "背景图片",
+            "x-format": "@image('750x1200')"
+          },
+          "coupon_name": {
+            "type": "string",
+            "title": "红包名称"
+          },
+          "fail_msg1": {
+            "type": "string",
+            "title": "已参加过活动提示引导文案"
+          },
+          "fail_msg2": {
+            "type": "string",
+            "title": "非本次活动渠道的关注用户提示引导文案"
+          },
+          "fail_msg3": {
+            "type": "string",
+            "title": "红包发放结束提示引导文案"
+          },
+          "to_use_url": {
+            "type": "string",
+            "title": "立即使用URL",
+            "x-format": "@url"
+          },
+          "more_url": {
+            "type": "string",
+            "title": "更多福利URL",
+            "x-format": "@url"
+          },
+          "new_coupon": {
+            "type": "object",
+            "title": "抢券",
+            "properties": {
+                "price": {
+                    "type": "string",
+                    "title": "金额"
+                  },
+                  "title": {
+                    "type": "string",
+                    "title": "文案"
+                  },
+                  "url": {
+                    "type": "string",
+                    "title": "抢券URL",
+                    "x-format": "@url"
+                  },
+                  "bg": {
+                    "type": "string",
+                    "title": "背景图片",
+                    "x-format": "@image('680x140')"
+                  }
+            }
+          }
+        }
+      }
+    }
+  }
